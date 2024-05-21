@@ -41,3 +41,22 @@ body{
     font-weight:500;
     font-size:1.8rem;
 }
+
+#boxesContainer{
+    display:grid;
+    grid-template-columns:repeat(11,1fr);
+    margin:2rem auto 0 auto;
+    width:396px;
+    height:396px;
+}
+
+#boxesContainer>.box{
+    background-color:var(--Very-Very-Dark-Grayish-Blue);
+}
+
+.box{
+    height:30px;
+    width:30px;
+    border-radius:5px;
+    margin:3px;
+}
