@@ -201,6 +201,81 @@ const vrT = `
     </div>
 `;
 
+const hZ4 = `
+    <div class="option" id="hZ4">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const hZ5 = `
+    <div class="option" id="hZ5">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const hrZ5 = `
+    <div class="option" id="hrZ5">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vZ5 = `
+    <div class="option" id="vZ5">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vrZ5 = `
+    <div class="option" id="vrZ5">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const hrZ4 = `
+    <div class="option" id="hrZ4">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vZ4 = `
+    <div class="option" id="vZ4">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vrZ4 = `
+    <div class="option" id="vrZ4">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
 
 const options = {
     hL2: hL2,
@@ -226,6 +301,14 @@ const options = {
     hrT: hrT,
     vT: vT,
     vrT: vrT,
+    hZ4: hZ4,
+    hZ5: hZ5,
+    hrZ5: hrZ5,
+    vZ5: vZ5,
+    vrZ5: vrZ5,
+    hrZ4: hrZ4,
+    vZ4: vZ4,
+    vrZ4: vrZ4,
 }
 
 function getOption(name) {
