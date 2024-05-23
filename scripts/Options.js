@@ -165,6 +165,42 @@ const vrLS4 = `
     </div>
 `;
 
+const hT = `
+    <div class="option" id="hT">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const hrT = `
+    <div class="option" id="hrT">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vT = `
+    <div class="option" id="vT">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vrT = `
+    <div class="option" id="vrT">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
 
 const options = {
     hL2: hL2,
@@ -185,7 +221,11 @@ const options = {
     vLS3: vLS3,
     vLS4: vLS4,
     vrLS3: vrLS3,
-    vrLS4: vrLS4
+    vrLS4: vrLS4,
+    hT: hT,
+    hrT: hrT,
+    vT: vT,
+    vrT: vrT,
 }
 
 function getOption(name) {
