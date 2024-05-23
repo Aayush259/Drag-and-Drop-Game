@@ -353,6 +353,121 @@ const vLL = `
     </div>
 `;
 
+const hU = `
+    <div class="option" id="hU">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const hrU = `
+    <div class="option" id="hrU">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vrU = `
+    <div class="option" id="vrU">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vU = `
+    <div class="option" id="vU">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const hY = `
+    <div class="option" id="hY">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const hrY = `
+    <div class="option" id="hrY">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vY = `
+    <div class="option" id="vY">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vrY = `
+    <div class="option" id="vrY">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const hB6 = `
+    <div class="option" id="hB6">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vB6 = `
+    <div class="option" id="vB6">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const B4 = `
+    <div class="option" id="B4">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
 const options = {
     hL2: hL2,
     hL3: hL3,
@@ -393,6 +508,17 @@ const options = {
     vrLL: vrLL,
     hrLL: hrLL,
     vLL: vLL,
+    hU: hU,
+    hrU: hrU,
+    vrU: vrU,
+    vU: vU,
+    hY: hY,
+    hrY: hrY,
+    vY: vY,
+    vrY: vrY,
+    hB6: hB6,
+    vB6: vB6,
+    B4: B4,
 }
 
 function getOption(name) {

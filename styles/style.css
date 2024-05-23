@@ -81,11 +81,11 @@ body{
     display:flex;
 }
 
-#hLS3, #hLS4, #hrLS3, #hrLS4, #vLS3, #vLS4, #vrLS3, #vrLS4, #vT, #vZ4, #vrZ4{
+#hLS3, #hLS4, #hrLS3, #hrLS4, #vLS3, #vLS4, #vrLS3, #vrLS4, #vT, #vZ4, #vrZ4, #vU, #vrU, #vB6, #B4{
     grid-template-columns:repeat(2,1fr);
 }
 
-#hT, #hrT, #hZ4, #hZ5, #vZ5, #vrZ5, #hrZ4, #hLT, #hrLT, #vrLT, #vLT, #hLL, #hrLL, #vLL, #vrLL{
+#hT, #hrT, #hZ4, #hZ5, #vZ5, #vrZ5, #hrZ4, #hLT, #hrLT, #vrLT, #vLT, #hLL, #hrLL, #vLL, #vrLL, #hrU, #hU, #hY, #hrY, #vY, #vrY, #hB6{
     grid-template-columns:repeat(3,1fr);
 }
 
@@ -103,11 +103,11 @@ body{
     grid-column:1/2;
 }
 
-#hrLS3 .box:nth-child(1), #hrLS4 .box:nth-child(1), #hrLS4 .box:nth-child(2), #vrLS3 .box:nth-child(3), #hT .box:nth-child(4), #vrT .box:nth-child(1), #vrT .box:nth-child(3), #vrT .box:nth-child(4), #hZ4 .box:nth-child(4), #hZ5 .box:nth-child(4), #hZ5 .box:nth-child(3), #hrZ5 .box:nth-child(4), #hrZ5 .box:nth-child(3), #vZ4 .box:nth-child(1), #hLT .box:nth-child(4), #hLT .box:nth-child(5), #hrLT .box:nth-child(4), #hrLT .box:nth-child(5){
+#hrLS3 .box:nth-child(1), #hrLS4 .box:nth-child(1), #hrLS4 .box:nth-child(2), #vrLS3 .box:nth-child(3), #hT .box:nth-child(4), #vrT .box:nth-child(1), #vrT .box:nth-child(3), #vrT .box:nth-child(4), #hZ4 .box:nth-child(4), #hZ5 .box:nth-child(4), #hZ5 .box:nth-child(3), #hrZ5 .box:nth-child(4), #hrZ5 .box:nth-child(3), #vZ4 .box:nth-child(1), #hLT .box:nth-child(4), #hLT .box:nth-child(5), #hrLT .box:nth-child(4), #hrLT .box:nth-child(5), #vU .box:nth-child(3), #hY .box:nth-child(6), #hrY .box:nth-child(1), #vY .box:nth-child(3), #vrY .box:nth-child(1), #vrY .box:nth-child(5){
     grid-column:2/3;
 }
 
-#hrT .box, #vrZ5 .box:nth-child(2), #vrZ5 .box:nth-child(3), #vrZ5 .box:nth-child(4), #vrZ4 .box:nth-child(2), #vrZ4 .box:nth-child(3), #hrLT .box:nth-child(4), #vLT .box:nth-child(2), #vLT .box:nth-child(3), #vLT .box:nth-child(4), #vrLT .box:nth-child(1), #vrLT .box:nth-child(2), #vrLT .box:nth-child(3), #hLL .box:nth-child(1), #hLL .box:nth-child(2), #hLL .box:nth-child(3), #hrLL .box:nth-child(2), #hrLL .box:nth-child(3), #hrLL .box:nth-child(4){
+#hrT .box, #vrZ5 .box:nth-child(2), #vrZ5 .box:nth-child(3), #vrZ5 .box:nth-child(4), #vrZ4 .box:nth-child(2), #vrZ4 .box:nth-child(3), #hrLT .box:nth-child(4), #vLT .box:nth-child(2), #vLT .box:nth-child(3), #vLT .box:nth-child(4), #vrLT .box:nth-child(1), #vrLT .box:nth-child(2), #vrLT .box:nth-child(3), #hLL .box:nth-child(1), #hLL .box:nth-child(2), #hLL .box:nth-child(3), #hrLL .box:nth-child(2), #hrLL .box:nth-child(3), #hrLL .box:nth-child(4), #hU .box:nth-child(3), #hU .box:nth-child(4), #hU .box:nth-child(5), #hrY .box:nth-child(2), #hrY .box:nth-child(3), #hrY .box:nth-child(4), #vY .box:nth-child(3), #vY .box:nth-child(4), #vrY .box:nth-child(3), #vrY .box:nth-child(4){
     grid-row:2/3;
 }
 
@@ -121,16 +121,16 @@ body{
     grid-column:3/4;
 }
 
-#hZ5 .box:nth-child(5), #vrZ5 .box:nth-child(5), #vrLT .box:nth-child(5){
+#hZ5 .box:nth-child(5), #vrZ5 .box:nth-child(5), #vrLT .box:nth-child(5), #hrY .box:nth-child(5){
     grid-row:3/4;
     grid-column:3/4;
 }
 
-#hZ5 .box:nth-child(4), #hLT .box:nth-child(5), #hrLT .box:nth-child(1), #hrLT .box:nth-child(2), #hrLT .box:nth-child(3), #vLT .box:nth-child(5){
+#hZ5 .box:nth-child(4), #hLT .box:nth-child(5), #hrLT .box:nth-child(1), #hrLT .box:nth-child(2), #hrLT .box:nth-child(3), #vLT .box:nth-child(5), #vrU .box:nth-child(4), #vrU .box:nth-child(5), #vU .box:nth-child(4), #vU .box:nth-child(5), #hrY .box:nth-child(6), #vY .box:nth-child(5), #vY .box:nth-child(6), #vrY .box:nth-child(5), #vrY .box:nth-child(6){
     grid-row:3/4;
 }
 
-#vZ5 .box:nth-child(1), #hrZ5 .box:nth-child(1), #hrZ4 .box:nth-child(1), #vrLT .box:nth-child(4), #hLL .box:nth-child(4), #vLL .box:nth-child(4){
+#vZ5 .box:nth-child(1), #hrZ5 .box:nth-child(1), #hrZ4 .box:nth-child(1), #vrLT .box:nth-child(4), #hLL .box:nth-child(4), #vLL .box:nth-child(4), #hU .box:nth-child(2), #hrU .box:nth-child(5), #hY .box:nth-child(2), #vY .box:nth-child(4), #vrY .box:nth-child(2), #vrY .box:nth-child(6){
     grid-column:3/4;
 }
 
