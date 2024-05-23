@@ -277,6 +277,82 @@ const vrZ4 = `
     </div>
 `;
 
+const hLT = `
+    <div class="option" id="hLT">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const hrLT = `
+    <div class="option" id="hrLT">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vLT = `
+    <div class="option" id="vLT">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vrLT = `
+    <div class="option" id="vrLT">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const hLL = `
+    <div class="option" id="hLL">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vrLL = `
+    <div class="option" id="vrLL">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const hrLL = `
+    <div class="option" id="hrLL">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
+const vLL = `
+    <div class="option" id="vLL">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
 const options = {
     hL2: hL2,
     hL3: hL3,
@@ -309,6 +385,14 @@ const options = {
     hrZ4: hrZ4,
     vZ4: vZ4,
     vrZ4: vrZ4,
+    hLT: hLT,
+    hrLT: hrLT,
+    vLT: vLT,
+    vrLT: vrLT,
+    hLL: hLL,
+    vrLL: vrLL,
+    hrLL: hrLL,
+    vLL: vLL,
 }
 
 function getOption(name) {
