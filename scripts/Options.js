@@ -468,6 +468,16 @@ const B4 = `
     </div>
 `;
 
+const P5 = `
+    <div class="option" id="P5">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+`;
+
 const options = {
     hL2: hL2,
     hL3: hL3,
@@ -519,6 +529,7 @@ const options = {
     hB6: hB6,
     vB6: vB6,
     B4: B4,
+    P5: P5,
 }
 
 function getOption(name) {
