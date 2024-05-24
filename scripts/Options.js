@@ -1,12 +1,12 @@
 const vL2 = `
-    <div class="option" id="vL2">
+    <div class="option" id="vL2" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
     </div>
 `;
 
 const vL3 = `
-    <div class="option" id="vL3">
+    <div class="option" id="vL3" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -14,7 +14,7 @@ const vL3 = `
 `;
 
 const vL4 = `
-    <div class="option" id="vL4">
+    <div class="option" id="vL4" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -23,7 +23,7 @@ const vL4 = `
 `;
 
 const vL5 = `
-    <div class="option" id="vL5">
+    <div class="option" id="vL5" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -33,7 +33,7 @@ const vL5 = `
 `;
 
 const vL6 = `
-    <div class="option" id="vL6">
+    <div class="option" id="vL6" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -44,14 +44,14 @@ const vL6 = `
 `;
 
 const hL2 = `
-    <div class="option flex" id="hL2">
+    <div class="option flex" id="hL2" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
     </div>
 `;
 
 const hL3 = `
-    <div class="option flex" id="hL3">
+    <div class="option flex" id="hL3" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -59,7 +59,7 @@ const hL3 = `
 `;
 
 const hL4 = `
-    <div class="option flex" id="hL4">
+    <div class="option flex" id="hL4" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -67,10 +67,8 @@ const hL4 = `
     </div>
 `;
 
-
-
 const hL5 = `
-    <div class="option flex" id="hL5">
+    <div class="option flex" id="hL5" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -80,7 +78,7 @@ const hL5 = `
 `;
 
 const hL6 = `
-    <div class="option flex" id="hL6">
+    <div class="option flex" id="hL6" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -91,13 +89,13 @@ const hL6 = `
 `;
 
 const d = `
-    <div class="option" id="d">
+    <div class="option" id="d" draggable="true">
         <div class="box"></div>
     </div>
 `;
 
 const hLS3 = `
-    <div class="option" id="hLS3">
+    <div class="option" id="hLS3" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -105,7 +103,7 @@ const hLS3 = `
 `;
 
 const hLS4 = `
-    <div class="option" id="hLS4">
+    <div class="option" id="hLS4" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -114,7 +112,7 @@ const hLS4 = `
 `;
 
 const hrLS3 = `
-    <div class="option" id="hrLS3">
+    <div class="option" id="hrLS3" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -122,7 +120,7 @@ const hrLS3 = `
 `;
 
 const hrLS4 = `
-    <div class="option" id="hrLS4">
+    <div class="option" id="hrLS4" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -131,7 +129,7 @@ const hrLS4 = `
 `;
 
 const vLS3 = `
-    <div class="option" id="vLS3">
+    <div class="option" id="vLS3" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -139,7 +137,7 @@ const vLS3 = `
 `;
 
 const vLS4 = `
-    <div class="option" id="vLS4">
+    <div class="option" id="vLS4" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -148,7 +146,7 @@ const vLS4 = `
 `;
 
 const vrLS3 = `
-    <div class="option" id="vrLS3">
+    <div class="option" id="vrLS3" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -156,7 +154,7 @@ const vrLS3 = `
 `;
 
 const vrLS4 = `
-    <div class="option" id="vrLS4">
+    <div class="option" id="vrLS4" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -165,7 +163,7 @@ const vrLS4 = `
 `;
 
 const hT = `
-    <div class="option" id="hT">
+    <div class="option" id="hT" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -174,7 +172,7 @@ const hT = `
 `;
 
 const hrT = `
-    <div class="option" id="hrT">
+    <div class="option" id="hrT" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -183,7 +181,7 @@ const hrT = `
 `;
 
 const vT = `
-    <div class="option" id="vT">
+    <div class="option" id="vT" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -192,7 +190,7 @@ const vT = `
 `;
 
 const vrT = `
-    <div class="option" id="vrT">
+    <div class="option" id="vrT" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -201,7 +199,7 @@ const vrT = `
 `;
 
 const hZ4 = `
-    <div class="option" id="hZ4">
+    <div class="option" id="hZ4" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -210,7 +208,7 @@ const hZ4 = `
 `;
 
 const hZ5 = `
-    <div class="option" id="hZ5">
+    <div class="option" id="hZ5" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -220,7 +218,7 @@ const hZ5 = `
 `;
 
 const hrZ5 = `
-    <div class="option" id="hrZ5">
+    <div class="option" id="hrZ5" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -230,7 +228,7 @@ const hrZ5 = `
 `;
 
 const vZ5 = `
-    <div class="option" id="vZ5">
+    <div class="option" id="vZ5" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -240,7 +238,7 @@ const vZ5 = `
 `;
 
 const vrZ5 = `
-    <div class="option" id="vrZ5">
+    <div class="option" id="vrZ5" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -250,7 +248,7 @@ const vrZ5 = `
 `;
 
 const hrZ4 = `
-    <div class="option" id="hrZ4">
+    <div class="option" id="hrZ4" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -259,7 +257,7 @@ const hrZ4 = `
 `;
 
 const vZ4 = `
-    <div class="option" id="vZ4">
+    <div class="option" id="vZ4" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -268,7 +266,7 @@ const vZ4 = `
 `;
 
 const vrZ4 = `
-    <div class="option" id="vrZ4">
+    <div class="option" id="vrZ4" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -277,7 +275,7 @@ const vrZ4 = `
 `;
 
 const hLT = `
-    <div class="option" id="hLT">
+    <div class="option" id="hLT" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -287,7 +285,7 @@ const hLT = `
 `;
 
 const hrLT = `
-    <div class="option" id="hrLT">
+    <div class="option" id="hrLT" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -297,7 +295,7 @@ const hrLT = `
 `;
 
 const vLT = `
-    <div class="option" id="vLT">
+    <div class="option" id="vLT" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -307,7 +305,7 @@ const vLT = `
 `;
 
 const vrLT = `
-    <div class="option" id="vrLT">
+    <div class="option" id="vrLT" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -317,7 +315,7 @@ const vrLT = `
 `;
 
 const hLL = `
-    <div class="option" id="hLL">
+    <div class="option" id="hLL" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -326,7 +324,7 @@ const hLL = `
 `;
 
 const vrLL = `
-    <div class="option" id="vrLL">
+    <div class="option" id="vrLL" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -335,7 +333,7 @@ const vrLL = `
 `;
 
 const hrLL = `
-    <div class="option" id="hrLL">
+    <div class="option" id="hrLL" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -344,7 +342,7 @@ const hrLL = `
 `;
 
 const vLL = `
-    <div class="option" id="vLL">
+    <div class="option" id="vLL" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -353,7 +351,7 @@ const vLL = `
 `;
 
 const hU = `
-    <div class="option" id="hU">
+    <div class="option" id="hU" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -363,7 +361,7 @@ const hU = `
 `;
 
 const hrU = `
-    <div class="option" id="hrU">
+    <div class="option" id="hrU" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -373,7 +371,7 @@ const hrU = `
 `;
 
 const vrU = `
-    <div class="option" id="vrU">
+    <div class="option" id="vrU" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -383,7 +381,7 @@ const vrU = `
 `;
 
 const vU = `
-    <div class="option" id="vU">
+    <div class="option" id="vU" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -393,7 +391,7 @@ const vU = `
 `;
 
 const hY = `
-    <div class="option" id="hY">
+    <div class="option" id="hY" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -404,7 +402,7 @@ const hY = `
 `;
 
 const hrY = `
-    <div class="option" id="hrY">
+    <div class="option" id="hrY" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -415,7 +413,7 @@ const hrY = `
 `;
 
 const vY = `
-    <div class="option" id="vY">
+    <div class="option" id="vY" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -426,7 +424,7 @@ const vY = `
 `;
 
 const vrY = `
-    <div class="option" id="vrY">
+    <div class="option" id="vrY" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -437,7 +435,7 @@ const vrY = `
 `;
 
 const hB6 = `
-    <div class="option" id="hB6">
+    <div class="option" id="hB6" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -448,7 +446,7 @@ const hB6 = `
 `;
 
 const vB6 = `
-    <div class="option" id="vB6">
+    <div class="option" id="vB6" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -459,7 +457,7 @@ const vB6 = `
 `;
 
 const B4 = `
-    <div class="option" id="B4">
+    <div class="option" id="B4" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -468,7 +466,7 @@ const B4 = `
 `;
 
 const P5 = `
-    <div class="option" id="P5">
+    <div class="option" id="P5" draggable="true">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
