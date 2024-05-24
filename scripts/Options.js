@@ -10,7 +10,6 @@ const vL3 = `
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
-        <div class="box"></div>
     </div>
 `;
 
