@@ -1,12 +1,12 @@
 const vL2 = `
-    <div class="option" id="vL2" draggable="true">
+    <div class="option" id="vL2" draggable="true" ondragstart="vL2Option()">
         <div class="box"></div>
         <div class="box"></div>
     </div>
 `;
 
 const vL3 = `
-    <div class="option" id="vL3" draggable="true">
+    <div class="option" id="vL3" draggable="true" ondragstart="vL3Option()">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
