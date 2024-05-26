@@ -15,6 +15,8 @@ const optionArray8 = ["vT", "vrT", "vrLT", "vLT"];
 const optionArray9 = ["hZ4", "hZ5", "hrZ4", "hrZ5", "vZ4", "vZ5", "vrZ4", "vrZ5"];
 const optionArray10 = ["hLL", "hrLL", "vrLL", "vLL", "vU", "vrU", "hrU", "hU"];
 
+const colors = ["orange", "rgb(255, 0, 179)", "yellow", "aqua", "red", "greenyellow", "rgb(174, 0, 255)"];
+
 // Creatingarray of option arrays to randomly select any three of them.
 const arrayOfOptionArrays = [
     optionArray1, optionArray2, optionArray3, optionArray4, optionArray5, optionArray6, optionArray7, optionArray8, optionArray9, optionArray10
@@ -60,7 +62,20 @@ const get3RandomOptions = (randomArraysObject) => {
     // Adding each option to the optionContainer.
     randomOptions.forEach(option => {
         optionContainer.innerHTML += getOption(option);
+
     });
+
+    // Getting all elements of optionContainer.
+    const options = optionContainer.querySelectorAll(".option");
+
+    // Applying random colors for each option's boxes.
+    for (let i = 0; i < 3; i++){
+        // Random Color.
+        const randomColor = colors[Math.floor(Math.random() * colors.length)]
+
+        // Applying random color.
+        options[i].querySelectorAll(".box").forEach(box => box.style.backgroundColor = randomColor);
+    };
 }
 
 get3RandomOptions(randomArrays);
