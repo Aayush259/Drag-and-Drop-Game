@@ -36,6 +36,25 @@ const addDragoverClass = (boxesArray) => {
 }
 
 /*
+    This function returns true if the option can be placed in the boxes container. Else it returns false.
+*/
+const optionCanBePlacedHLSeries = (box, counterIndex) => {
+    let canOptionBePlaced = true;
+
+    const rowAndColumn = getRowAndColumn(box);
+
+    // Getting column of the box in zero-based index.
+    const column = rowAndColumn[1] - 1;
+
+    // If column-1 is greater than counterIndex, it means that the option can't be placed in the boxes. Return from the function.
+    if (column > counterIndex) {
+        canOptionBePlaced = false;
+    };
+    
+    return canOptionBePlaced;
+}
+
+/*
     This object consists of several methods.
     Each method highlights the boxes in boxesContainer based on the option which is being dragged by the user.
  */
@@ -101,6 +120,96 @@ const dragDropOptionObj = {
         }
     },
 
+    hL2: (dragoverBox) => {
+        const box1 = dragoverBox;
+
+        // If option can't be placed then return nothing.
+        if (!optionCanBePlacedHLSeries(box1, 9)) {
+            return;
+        };
+
+        const box2 = boxes[arrayOfBoxes.indexOf(box1) + 1];
+
+        // If all boxes are valid elements, then highlight the boxes.
+        if (box1 && box2) {
+            addDragoverClass([box1, box2]);
+        };
+    },
+
+    hL3: (dragoverBox) => {
+        const box1 = dragoverBox;
+
+        // If option can't be placed then return nothing.
+        if (!optionCanBePlacedHLSeries(box1, 8)) {
+            return;
+        };
+
+        const box2 = boxes[arrayOfBoxes.indexOf(box1) + 1];
+        const box3 = boxes[arrayOfBoxes.indexOf(box2) + 1];
+
+        // If all boxes are valid elements, then highlight the boxes.
+        if (box1 && box2 && box3) {
+            addDragoverClass([box1, box2, box3]);
+        };
+    },
+
+    hL4: (dragoverBox) => {
+        const box1 = dragoverBox;
+
+        // If option can't be placed then return nothing.
+        if (!optionCanBePlacedHLSeries(box1, 7)) {
+            return;
+        };
+
+        const box2 = boxes[arrayOfBoxes.indexOf(box1) + 1];
+        const box3 = boxes[arrayOfBoxes.indexOf(box2) + 1];
+        const box4 = boxes[arrayOfBoxes.indexOf(box3) + 1];
+
+        // If all boxes are valid elements, then highlight the boxes.
+        if (box1 && box2 && box3 && box4) {
+            addDragoverClass([box1, box2, box3, box4]);
+        };
+    },
+
+    hL5: (dragoverBox) => {
+        const box1 = dragoverBox;
+
+        // If option can't be placed then return nothing.
+        if (!optionCanBePlacedHLSeries(box1, 6)) {
+            return;
+        };
+        
+        const box2 = boxes[arrayOfBoxes.indexOf(box1) + 1];
+        const box3 = boxes[arrayOfBoxes.indexOf(box2) + 1];
+        const box4 = boxes[arrayOfBoxes.indexOf(box3) + 1];
+        const box5 = boxes[arrayOfBoxes.indexOf(box4) + 1];
+
+        // If all boxes are valid elements, then highlight the boxes.
+        if (box1 && box2 && box3 && box4 && box5) {
+            addDragoverClass([box1, box2, box3, box4, box5]);
+        }
+    },
+
+    hL6: (dragoverBox) => {
+        const box1 = dragoverBox;
+
+        // If option can't be placed then return nothing.
+        if (!optionCanBePlacedHLSeries(box1, 5)) {
+            return;
+        };
+
+        const box2 = boxes[arrayOfBoxes.indexOf(box1) + 1];
+        const box3 = boxes[arrayOfBoxes.indexOf(box2) + 1];
+        const box4 = boxes[arrayOfBoxes.indexOf(box3) + 1];
+        const box5 = boxes[arrayOfBoxes.indexOf(box4) + 1];
+        const box6 = boxes[arrayOfBoxes.indexOf(box5) + 1];
+
+        // If all boxes are valid elements, then highlight the boxes.
+        if (box1 && box2 && box3 && box4 && box5 && box6) {
+            addDragoverClass([box1, box2, box3, box4, box5, box6]);
+        }
+    },
+
 }
 
 const dragover = (e) => {
@@ -110,6 +219,7 @@ const dragover = (e) => {
     }
 
     dragDropOptionObj[dragDropShape](e.target);
+    // console.log("hover");
 }
 
 boxes.forEach(box => box.addEventListener("dragover", dragover));
@@ -189,3 +299,30 @@ const vL6Option = (option) => {
     dragDropShape = "vL6";
     optionDragStart(option);
 }
+
+
+const hL2Option = (option) => {
+    dragDropShape = "hL2";
+    optionDragStart(option);
+}
+
+const hL3Option = (option) => {
+    dragDropShape = "hL3";
+    optionDragStart(option);
+}
+
+const hL4Option = (option) => {
+    dragDropShape = "hL4";
+    optionDragStart(option);
+}
+
+const hL5Option = (option) => {
+    dragDropShape = "hL5";
+    optionDragStart(option);
+}
+
+const hL6Option = (option) => {
+    dragDropShape = "hL6";
+    optionDragStart(option);
+}
+

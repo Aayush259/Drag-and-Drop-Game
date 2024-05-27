@@ -61,7 +61,7 @@ const get3RandomOptions = (randomArraysObject) => {
 
     // Adding each option to the optionContainer.
     randomOptions.forEach(option => {
-        optionContainer.innerHTML += getOption(option);
+        optionContainer.innerHTML += getOption("hL5");
 
     });
 

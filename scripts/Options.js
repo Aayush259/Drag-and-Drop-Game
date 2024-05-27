@@ -1,12 +1,12 @@
 const vL2 = `
-    <div class="option" id="vL2" draggable="true" ondragstart="vL2Option()">
+    <div class="option" id="vL2" draggable="true" ondragstart="vL2Option(this)" ondragend="optionDragStop(this)">
         <div class="box"></div>
         <div class="box"></div>
     </div>
 `;
 
 const vL3 = `
-    <div class="option" id="vL3" draggable="true" ondragstart="vL3Option()">
+    <div class="option" id="vL3" draggable="true" ondragstart="vL3Option(this)" ondragend="optionDragStop(this)">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -14,7 +14,7 @@ const vL3 = `
 `;
 
 const vL4 = `
-    <div class="option" id="vL4" draggable="true">
+    <div class="option" id="vL4" draggable="true" ondragstart="vL4Option(this)" ondragend="optionDragStop(this)">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -23,7 +23,7 @@ const vL4 = `
 `;
 
 const vL5 = `
-    <div class="option" id="vL5" draggable="true">
+    <div class="option" id="vL5" draggable="true" ondragstart="vL5Option(this)" ondragend="optionDragStop(this)">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -33,7 +33,7 @@ const vL5 = `
 `;
 
 const vL6 = `
-    <div class="option" id="vL6" draggable="true">
+    <div class="option" id="vL6" draggable="true" ondragstart="vL6Option(this)" ondragend="optionDragStop(this)">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -44,14 +44,14 @@ const vL6 = `
 `;
 
 const hL2 = `
-    <div class="option flex" id="hL2" draggable="true">
+    <div class="option flex" id="hL2" draggable="true" ondragstart="hL2Option(this)" ondragend="optionDragStop(this)">
         <div class="box"></div>
         <div class="box"></div>
     </div>
 `;
 
 const hL3 = `
-    <div class="option flex" id="hL3" draggable="true">
+    <div class="option flex" id="hL3" draggable="true" ondragstart="hL3Option(this)" ondragend="optionDragStop(this)">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -59,7 +59,7 @@ const hL3 = `
 `;
 
 const hL4 = `
-    <div class="option flex" id="hL4" draggable="true">
+    <div class="option flex" id="hL4" draggable="true" ondragstart="hL4Option(this)" ondragend="optionDragStop(this)">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -68,7 +68,7 @@ const hL4 = `
 `;
 
 const hL5 = `
-    <div class="option flex" id="hL5" draggable="true">
+    <div class="option flex" id="hL5" draggable="true" ondragstart="hL5Option(this)" ondragend="optionDragStop(this)">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -78,7 +78,7 @@ const hL5 = `
 `;
 
 const hL6 = `
-    <div class="option flex" id="hL6" draggable="true">
+    <div class="option flex" id="hL6" draggable="true" ondragstart="hL6Option(this)" ondragend="optionDragStop(this)">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>

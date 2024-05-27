@@ -79,8 +79,7 @@ body{
 .option .box{
     height:20px;
     width:20px;
-    margin:1.5px;
-    background-color:orange;
+    margin:1.5px;;
 }
 
 .option.flex{
@@ -155,6 +154,15 @@ body{
     grid-column:2/3;
 }
 
-.dragover{
-    background-color:hsl(233, 12%, 71%) !important;
+#boxesContainer>.dragover{
+    background-color:hsl(233, 12%, 71%);
+}
+
+.hide{
+    visibility:hidden;
+}
+
+.activeOption .box{
+    height:25px !important;
+    width:25px !important;
 }
